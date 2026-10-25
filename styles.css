@@ -1,1 +1,42 @@
 /*  your css code here. If applicable */
+ body{
+        	margin: 0;
+        	padding: 0;
+
+        }
+
+        .hero{
+        	width: 100vw;
+        	display: flex;
+        	justify-content: space-between;
+        	align-items: left;
+
+        }
+
+
+        img{
+        	width: 1200px;
+        	height: 550px;
+        	object-fit: cover;
+        }
+
+        .button{
+        	text-align: center;
+        	margin-right: 15px;
+        	margin-top: 150px;
+        }
+
+        .explore-btn{
+              text-decoration: none;
+              border: 2px solid orangered;
+              border-radius: 5px;
+              background-color: orangered;
+              color: white;
+              font-weight: bold;
+              padding: 10px;
+
+        }
+
+        p{
+        	margin: 25px;
+        }
